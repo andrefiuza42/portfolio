@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portfólio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">               <!-- nav é a estrutura que permite navegar entre os elementos de uma pagina -->
+            <div class="logo">André Fiúza</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#profile">Sobre mim</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <nav id="nav-horizontal-lines">
+            <div class="logo">André Fiúza</div>
+            <div class="horizontal-lines-menu">
+                <div class="horizontal-lines-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#profile" onclick="toggleMenu()">Sobre mim</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <!-- PROFILE SECTION-->
+
+        <section id="profile">
+            <div class="section_pic-container" >
+                <img src="./assets/laranjao editada.png" alt="André Fiúza's profile picture" />    
+            </div>
+            <div class="section_text"> 
+                <p class="section_text_pl">Olá, eu sou o</p>
+                <h1 class="title">André Fiúza</h1>
+                <p class="section_text_p2">Engenheiro de Controle e Automação e desenvolvedor</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"
+                        onclick="window.open('./assets/resume-example.pdf')"> Meu currículo
+                    </button>
+                    <button class="btn btn-color-1"
+                        onclick="location.href='./#contact' "> Entre em contato
+                    </button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" 
+                        alt="My LinkedIn profile"
+                        class="icon" onclick="location.href='https://www.linkedin.com/in/andr%C3%A9-fi%C3%BAza-fonseca-camargos-eca20182022/'"
+                    />
+                    <img src="./assets/github.png" 
+                        alt="My GitHub profile"
+                        class="icon" onclick="location.href='https://github.com/andrefiuza42?tab=repositories'"
+                    />
+                </div>
+            </div> 
+        </section>
+
+        <!-- ABOUT SECTION-->
+
+        <section id="about">
+            <p class="section_text_p1">Aprenda mais </p>
+            <h1 class="title">Sobre mim</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="./assets/about-pic.png"
+                    alt="Profile picture"
+                    class="about-pic"
+                />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon"
+                            />
+                            <h1>Experiência</h1>
+                            <p>2 anos de experiência <br /> Desenvolvimento de software</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="education icon"
+                            class="icon"
+                            />
+                            <h1>Educação</h1>
+                            <p>Eng de Controle e Automação <br /> UFMG </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Espaço reservado para qualquer baboseira de educação e cursos e complementos
+                            que eu quiser adicionar. Essa mensagem é apenas para teste de formatação e 
+                            espaços e não vai nem ficar aqui quando eu fizer a internacionalização dos 
+                            textos e adicionar inglês e espanhol em c sharp. 
+                        </p>
+                    </div>
+                </div>
+            </div> 
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'"
+            />
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+
+        <section id="experience">
+            <p class="section_text_p1">Conheça minha</p>
+            <h1 class="title">Experiência</h1>
+            <div class="experience-details-container">
+                <div class="about-containers"> 
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Desenvolvimento de software</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML e CSS</h3>
+                                    <p>Básico</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>C#/C++</h3>
+                                    <p>Avançado</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>javaScript</h3>
+                                    <p>Intermediário</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>VBA</h3>
+                                    <p>Avançado</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SQL server</h3>
+                                    <p>Intermediário</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Power BI</h3>
+                                    <p>Básico</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Desenvolvimento de software</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>HTML e CSS</h3>
+                                    <p>Básico</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>C#/C++</h3>
+                                    <p>Avançado</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>javaScript</h3>
+                                    <p>Intermediário</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Microsoft VBA</h3>
+                                    <p>Avançado</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>SQL server</h3>
+                                    <p>Intermediário</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets//checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Power BI</h3>
+                                    <p>Básico</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow"
+            onclick="location.href='./#projects'"
+            />
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
