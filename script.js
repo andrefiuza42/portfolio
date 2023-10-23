@@ -114,9 +114,8 @@ const translationData = {
         "about3" : "Education",
         "about4" : "Control and Automation Engineering - UFMG",
         "about5": "Hello! I'm glad you've taken the time to review my portfolio and get to know me better. \
-        I'm André, a Control and Automation Engineer from UFMG, which is considered the fifth best university in Latin America. \
-        I'm an enthusiast of artificial intelligence and the intersection of engineering and biomedicine, \
-        and I'm currently trying to learn more about data analysis, the financial market, and business intelligence.",
+        I'm André, a Control and Automation Engineer from UFMG, and I'm passionate about artificial intelligence and the intersection of engineering and biomedicine. \
+        Currently, I'm studying and taking further steps in my knowledge in data analysis and business intelligence.",
         "about6" : "About me", 
         "about7" : "Software Development", 
         "about8": "For two years, I worked as a software developer at Primetals Technologies (2021-2023). During this period, \
@@ -218,12 +217,12 @@ const translationData = {
         "about2": "2 anos de experiência",
         "about3": "Educação",
         "about4": "Engenharia de Controle e Automação - UFMG",
-        "about5": "Hello! I'm glad you've taken the time to review my portfolio and get to know me better. \
-        I'm André, a Control and Automation Engineer from UFMG, and I'm passionate about artificial intelligence and the intersection of engineering and biomedicine. \
-        Currently, I'm studying and taking further steps with my knowledge in data analysis and business intelligence.",
+        "about5": "Olá! Fico feliz que você tenha tirado esse tempo para avaliar meu portfólio e me conhecer melhor.\
+        Eu sou o André, Engenheiro de Controle e Automação pela UFMG, entusiasta de inteligência artificial e da interseção entre engenharia e biomedicina. \
+        Atualmente, estou estudando e aprofundando meus conhecimentos em análise de dados e business intelligence. ",
         "about6": "Sobre mim",
         "about7": "Desenvolvimento de Software",
-        "about8" : "Por dois anos fui desenvolvedor de software na empresa Primetals Technologies (2021-2023), período durante o qual trabalhei \
+        "about8" : "Por dois anos, fui desenvolvedor de software na empresa Primetals Technologies (2021-2023), período durante o qual trabalhei \
         com serviços especialistas de automação e siderurgia, aplicações web de monitoramento e controle de plantas industriais, integração entre \
         painéis de controle e bancos de dados e desenvolvimento de relatórios de produção, em VBA. \
         Além disso, durante a graduação, fui pesquisador pelo Departamento de Engenharia Nuclear da UFMG (2019-2020) e aprofundei meus conhecimentos nos \
