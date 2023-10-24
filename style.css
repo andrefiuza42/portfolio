@@ -155,6 +155,10 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
+.menu-links a:hover{
+    color: #3ac0af;
+}
+
 .menu-links li{
     list-style: none;
 }
@@ -283,27 +287,21 @@ section{
     cursor: pointer;
 }
 
-.btn-color-1:hover, .btn-color-2:hover {
-    cursor: pointer;
-}
-
 .btn-color-1, .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white; 
+    background: #3ac0af;
+    color: black;
+    border: black 0.1rem solid; 
 }
 
 .btn-color-1:hover {
     background: rgb(0, 0, 0);
+    border: aliceblue 0.1rem solid;
     color: aliceblue;
 }
 
 .btn-color-2 {
     background: none;
     color: aliceblue;
-}
-
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
@@ -451,7 +449,7 @@ article.icon {
     padding: 1rem;
     position: static;
     background: black;
-    box-shadow: 0 5px 25px rgba(221, 215, 215, 0.63);
+    box-shadow: 0 5px 25px #3ac0af;
     border-radius: 25px;
     width: 50vh;
 }
@@ -545,8 +543,8 @@ article.icon {
 }
 
 .project-btn {
-    color: aliceblue;
-    border-color: rgb(163, 163, 163);
+    /* color: aliceblue;
+    border-color: rgb(163, 163, 163); */
     display: inline-block;
 }
 
@@ -587,11 +585,15 @@ article.icon {
     height: 2rem;
 }
 
+.textLink{
+    cursor: pointer;
+}
+
 /* FOOTER SECTION */
 .nav-links-container{
     padding: 1rem;
     background: black;
-    box-shadow: 0 5px 25px rgba(221, 215, 215, 0.63);
+    box-shadow: 0 5px 25px #3ac0af;
     border-radius: 25px;
     position: fixed;
     display: flex;
@@ -604,7 +606,7 @@ article.icon {
     text-align: center;
 }
 
-.nav-links-container:hover{
+.nav-links-container a{
     cursor: pointer;
 }
 

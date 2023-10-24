@@ -12,6 +12,11 @@ function backToTop() {
     document.documentElement.scrollTop = 0; // Chrome, Firefox, Edge, Opera
 }
 
+function openCV() {
+    let fileName = 'CV-' + universalFileLang;
+    window.open('./assets/' + fileName + '.pdf');
+}
+
 // window.onscroll = function() {scrollFunction()};
 
 // let footerNav = document.getElementById("footerNav");
