@@ -87,4 +87,7 @@
     .top-bar-line {
         display: none;
     }
+    .nav-links-container{
+        display: none;
+    }
 }
